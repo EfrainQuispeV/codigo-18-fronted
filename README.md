@@ -23,7 +23,7 @@ git add
 
 ## crear una version de nuestro codigo junto a un comentario
 
-algunos prefijos
+algunos prefijos:
 
  feature (una nueva funcionalidad)
  fix : (reparar algo)
