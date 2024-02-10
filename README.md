@@ -28,10 +28,10 @@ git add
 
 algunos prefijos:
 
- feature (una nueva funcionalidad)
- fix : (reparar algo)
- chore: (Cosas repatitivas)
- style: (modifico la apariencia de la web)
+1. feature (una nueva funcionalidad)
+2. fix : (reparar algo)
+3. chore: (Cosas repatitivas)
+4. style: (modifico la apariencia de la web)
 
 ```bash
 git commit -m "feat: se creo el reto1 para el portafolio"
