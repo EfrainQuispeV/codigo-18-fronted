@@ -1,5 +1,9 @@
 # comando de GIT
 
+## renombrar archivo master a main
+
+git brunch -m main (Renombra de Master a Main)
+
 ## iniciat proyecto 
 
 ´´bash
@@ -8,13 +12,15 @@ git init
 
 ## para ver estado de archivos
 
+""bash
 git status
+"""
 
 ## agregar mis archivos al stage de git
 
 git add
 
-##crear una version de nuestro codigo junto a un comentario
+## crear una version de nuestro codigo junto a un comentario
 
 algunos prefijos
 
@@ -25,6 +31,3 @@ algunos prefijos
 
 git commit -m "feat: se creo el reto1 para el portafolio"
 
-ademas:
-
-git brunch -m main (Renombra de Master a Main)
