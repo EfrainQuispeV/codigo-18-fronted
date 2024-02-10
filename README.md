@@ -15,14 +15,15 @@ git init
 
 ## para ver estado de archivos
 
-""bash
+```bash
 git status
-"""
+```
 
 ## agregar mis archivos al stage de git
 
+```bash
 git add
-
+```
 ## crear una version de nuestro codigo junto a un comentario
 
 algunos prefijos:
@@ -32,5 +33,6 @@ algunos prefijos:
  chore: (Cosas repatitivas)
  style: (modifico la apariencia de la web)
 
+```bash
 git commit -m "feat: se creo el reto1 para el portafolio"
-
+```
