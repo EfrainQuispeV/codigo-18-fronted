@@ -2,13 +2,14 @@
 
 ## renombrar archivo master a main
 
-git brunch -m main (Renombra de Master a Main)
+git brunch -m main 
 
 ## iniciat proyecto 
 
-´´bash
+
+''bash
 git init
-´´´
+'''
 
 ## para ver estado de archivos
 
