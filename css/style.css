@@ -4,7 +4,7 @@
 }
 
 body {
-font-family: Helvetica, sans-serif;
+font-family: 'Raleway', sans-serif;
 background-color: #090e16;
 color: #fff;
 }
@@ -12,9 +12,15 @@ color: #fff;
 .align-center {
     align-items: center;
 }
+.flex{
+    display: flex;
+}
 
+.divider {
+    color: rgba(123, 74, 226, 20%) solid 0.5px;
+}
 nav {
-    display: flex; 
+   
     justify-content: space-between; /*  separa elementos entre si*/
     background-color: rgba(123, 74, 226, 0.05);
     /* margin-top: 30px;
@@ -26,7 +32,6 @@ nav {
     border-radius: 16px;
 }
 .nav-list {
-    display: flex;
     list-style: none;     /* quitar biñetas */
     gap: 20px;  /* obtener espacio entre cada item, solo si existe display: flex */
    
@@ -42,10 +47,10 @@ nav {
 }
 main{
 height: 50vh;
-display: flex;
+
 justify-content: space-between;
 align-items: center;
-padding: 20px;
+padding: 30px 80px;
 }
 .gretting {
     background-color: rgba(123, 74, 226, 0.05); 
@@ -98,4 +103,58 @@ padding: 20px;
     gap: 5px;
     padding: 5px;
     border-radius: 16px
+}
+.container-cards {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 60;
+    margin-bottom: 20px;
+}
+.container-cards > div {
+    text-align: center;
+    border: solid rgba(123, 74, 226, 0.5);
+    width: 246px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+.container-cards > div > p {
+    font-weight: 300;
+    margin-top: 10px;
+
+}
+.container-cards > div > h5 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.container-about-me{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px;
+
+}
+.container-about-me > div > img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.mt-20 {
+    margin: 20px;
+}
+
+.mb-20 {
+    margin: 20px;
+}
+
+.container-about-me > div > h2 {
+    font-size: 46px;
+
+}
+.container-about-me > div > p{
+    color:  rgba(255, 255 , 225, 0.5);
 }
