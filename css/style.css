@@ -111,6 +111,7 @@ padding: 30px 80px;
     margin-top: 60;
     margin-bottom: 20px;
 }
+
 .container-cards > div {
     text-align: center;
     border: solid rgba(123, 74, 226, 0.5);
@@ -122,6 +123,12 @@ padding: 30px 80px;
     align-items: center;
     border-radius: 16px;
 }
+.container-cards > div:nth-child(2) {
+    background-color: rgba(123, 74 , 226, 0.1);
+    border: none;
+
+}
+
 .container-cards > div > p {
     font-weight: 300;
     margin-top: 10px;
@@ -130,6 +137,31 @@ padding: 30px 80px;
 .container-cards > div > h5 {
     font-size: 32px;
     font-weight: bold;
+}
+.container-sumery {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    background-color: rgba(123, 74, 226, 0.1);
+    width: 858px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 60px;
+    border-radius: 16px;
+    color: #7b4ae2;
+}
+
+.container-sumery > div {
+    width: 246px;
+    text-align: center;
+}
+
+.container-sumery > div > p:first-child {
+    font-weight: 300;;
+}
+.container-sumery > div > p:last-child {
+    font-weight: bold;
+    font-size: 32px;
 }
 
 .container-about-me{
