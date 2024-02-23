@@ -1,200 +1,214 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  body {
-    font-family: "Fraunces", sans-serif;
-  }
-  
-  .flex {
-    display: flex;
-  }
-  
-  .font-barlow {
-    font-family: "Barlow", sans-serif;
+}
+body {
+    font-family: "Fraunces" sans-serif;
+}
+.font-barlow {
+    font-family: "barlow" sans-serif;
     font-weight: 600;
-  }
-  
-  .text-center {
+}
+
+.text-center{
     text-align: center;
-  }
-  
-  .bg-no-repeat {
-    background-repeat: no-repeat !important;
-  }
-  
-  .bg-position-center {
-    background-position: center !important;
-  }
-  
-  .bg-size-cover {
-    background-size: cover !important;
-  }
-  
-  .h-50 {
-    height: 50vh !important;
-  }
-  
-  .nav {
-    background-color: rgb(62, 190, 255);
-    justify-content: space-between;
+}
+
+.nav {
+    background-color: rgb(62 , 190, 255);
+    display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 20px;
-  }
-  
-  .btn-menu {
+}
+
+.btn-menu {
     background-color: transparent;
     border: none;
     cursor: pointer;
-  }
-  
-  .menu {
+    
+}
+
+.btn-menu {
+    display: block;
+    
+}
+.menu{
     display: none;
-  }
-  
-  main {
+}
+.text-xl {
+    font-size: 38px ;
+}
+main {
     background: url("../assets/mobile/image-header.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 70vh;
-  }
-  
-  h1 {
-    color: #fff;
+}
+
+h1 {
+    color: white;
     text-align: center;
     text-transform: uppercase;
-    font-size: 60px;
+    font-size: 70px;
     padding-top: 35px;
-  }
-  
-  .arrow-down {
+}
+
+.arrow-down {
     display: block;
     margin: auto;
     height: 160px;
     margin-top: 35px;
-  }
-  
-  .bg-egg {
+}
+
+.bg-egg {
     background: url("../assets/mobile/image-transform.jpg");
-  }
-  
-  .container-egg {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    }
+
+.container-egg {
+    height: 50vh;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 16px;
-  }
-  
-  .container-egg > div > h2 {
-    font-size: 38px;
+    }
+
+.container-egg  > div > h2 {
+    font-size: 38px ;
     margin-bottom: 15px;
-  }
-  
-  .container-egg > div > p {
+}
+
+.container-egg > div > p {
     font-size: 18px;
     line-height: 1.5;
-    color: hsl(232, 10%, 55%);
-  }
-  
-  .link {
+    color: hrl(232, 10%, 55%);
+}
+
+.link  {
     text-transform: uppercase;
     margin-top: 20px;
     display: block;
     font-weight: bold;
     color: #000;
-    text-decoration: none;
-  }
-  
-  .bg-cup {
+    text-decoration:none;
+}
+
+.bg-cup {
     background: url("../assets/mobile/image-stand-out.jpg");
-  }
-  
-  /* sm */
-  @media (min-width: 640px) {
-  }
-  
-  /* md */
-  @media (min-width: 768px) {
-  }
-  
-  /* lg */
-  @media (min-width: 1024px) {
-  }
-  
-  /* xl */
-  @media (min-width: 1280px) {
-    main {
-      background: url("../assets/desktop/image-header.jpg");
+}
+
+.bg-cherry{
+    background: url("../assets/mobile/image-graphic-design.jpg");
+    height: 80vh;
+    align-items: flex-end;
+}
+.bg-cherry > div {
+    margin-bottom: 80px;
+}
+
+.bg-cherry > div > h2{
+    margin-bottom: 20px;
+    color: hsl(167, 40%, 24%);
+}
+
+.img-orange{
+    position: absolute;
+}
+
+.container.orange{
+    position: relative;
+}
+/* sm */
+@media (min-width: 640px){
+    h1 {
+        color: red;
     }
-  
-    .btn-menu {
-      display: none;
+}
+
+/* md */
+@media (min-width: 768px){
+    h1 {
+        color: green;
     }
-  
-    .menu {
-      display: flex;
-      gap: 25px;
-      align-items: center;
-      list-style: none;
-      font-family: "Barlow", sans-serif;
+}
+
+/* lg */
+@media (min-width: 1024px){
+    h1{
+        color: yellow;
     }
-  
-    .menu > li > a {
-      text-decoration: none;
-      color: #fff;
+}
+
+/* xl */
+@media (min-width: 1288px){
+   main {
+    background: url("../assets/mobile/image-header.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.btn-menu{
+    display: none;
+}
+
+.menu {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    font-family: "Barlow" ,sans-serif;
+}
+
+.menu > li > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu > li:last-child {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 24px;
+}
+.menu > li:last-child > a {
+    color: #000;
+    font-family: "Fraunces";
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+}
+.section-egg {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 70vh;
+}
+.bg-egg {
+    flex: 1;
+    background: url("../assets/desktop/image-transform.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.container-egg{
+    flex: 1;
+    padding: 0;
+    height: 100%;
+    ;
+}
+
+}
+
+/* 2xl */
+@media (min-width: 1536px){
+    h1 {
+        color: violet;
     }
-  
-    .menu > li:last-child {
-      background-color: #fff;
-      padding: 10px 20px;
-      border-radius: 24px;
-    }
-  
-    .menu > li:last-child > a {
-      color: #000;
-      font-family: "Fraunces";
-      text-transform: uppercase;
-      font-weight: 600;
-      font-size: 12px;
-    }
-  
-    .flex-reverse {
-      flex-direction: row-reverse;
-    }
-  
-    .section-egg {
-      display: flex;
-      height: 70vh;
-    }
-  
-    .bg-egg {
-      flex: 1;
-      background: url("../assets/desktop/image-transform.jpg");
-      height: 100% !important;
-    }
-  
-    .container-egg {
-      flex: 1;
-      height: 100% !important;
-      padding: 0;
-    }
-  
-    .container-egg > div {
-      display: block;
-      margin: auto;
-      width: 70%;
-    }
-  
-    .container-egg > div > * {
-      text-align: left;
-    }
-  
-    .bg-cup {
-      flex: 1;
-      background: url("../assets/desktop/image-stand-out.jpg");
-      height: 100% !important;
-    }
-  }
-  
-  /* 2xl */
-  @media (min-width: 1536px) {
-  }
+}
