@@ -1,0 +1,8 @@
+body{
+    font-family: "kumb sans" sans-serif;
+}
+@layer utilities{
+    .picture {
+        rounded
+    }
+}
