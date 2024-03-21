@@ -1,0 +1,26 @@
+const users = [
+    {
+        id:1,
+        name:"Efrain",
+        lastname:"quispe",
+        email:"efrainquispe156@gmail.com",
+        password:"efrain12345",
+        document_number:"88888888",
+    },
+    {
+        id:2,
+        name:"Dionicio",
+        lastname:"valero",
+        email:"dioniaries@gmai.com",
+        password:"Dioni12345",
+        document_number:"2222222", 
+    },
+    {
+        id:3,
+        name:"susana",
+        lastname:"muñante",
+        email:"Susana.M15@gmai.com",
+        password:"susana12345",
+        document_number:"3333333",
+    }
+]
