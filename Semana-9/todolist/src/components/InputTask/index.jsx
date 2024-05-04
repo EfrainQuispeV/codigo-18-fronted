@@ -1,23 +1,22 @@
 /* eslint-disable react/prop-types */
 export default function InputTask(props) {
   // dentro de un componente puedo crear funciones
-  const handleFormSubmit = (event) => {
+  const handleFormSubmit = async (event) => {
     event.preventDefault();
 
     const task = {
       text: props.task,
       status: 1,
-      created_at: new Date(),
+      createdAt: Date.now(),
     };
 
-    props.handleListTask(task);
+    await props.handleListTask(task);
   };
 
   return (
     <>
       <form
         onSubmit={handleFormSubmit}
-        action=""
         id="form"
         className="flex justify-between"
       >
@@ -33,6 +32,5 @@ export default function InputTask(props) {
         <button className="bg-green-400 px-4 rounded-r-md">Crear</button>
       </form>
     </>
-      );
-    }
-    
+  );
+}
